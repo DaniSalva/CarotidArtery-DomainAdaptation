@@ -1,0 +1,12 @@
+numpy
+six
+toolz
+cloudpickle
+matplotlib
+nltk
+scipy
+future
+cython
+sklearn
+git+https://github.com/MarcBS/keras#egg=keras
+
