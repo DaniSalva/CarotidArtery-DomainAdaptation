@@ -41,3 +41,10 @@ STEPS
 		7- Run the image segmentation training
 
 			nohup ./train.sh &> log_training.out&
+			
+			
+The following dependencies have been used in this module:
+
+Keras Semantic Segmentation --> https://github.com/beareme/keras_semantic_segmentation
+Custom Keras fork --> https://github.com/beareme/keras_semantic_segmentation
+Multimodal Keras Wrapper --> https://github.com/MarcBS/multimodal_keras_wrapper/releases/tag/v2.1.6
