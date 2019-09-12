@@ -1,7 +1,7 @@
 # CarotidArtery-DomainAdaptation
 Final Project for the Artificial Intelligence Research Master from the International University Menendez Pelayo (UIMP) and the Spanish AI Society (AEPIA).
 
-### Environment Semantic Segmentation
+### Semantic Segmentation Environment
 
 It contains the dockerfiles for building the images needed for running the semantic segmentation model based on Tiramisu architecture (DenseNet) implemented by the authors: https://github.com/beareme/keras_semantic_segmentation. A README file is provided with the instructions.
 
