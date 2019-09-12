@@ -1,0 +1,1 @@
+PYTHONPATH=/SemSeg/keras:/SemSeg/multimodal_keras_wrapper:/SemSeg/keras_semantic_segmentation:$PYTHONPATH THEANO_FLAGS='device=cuda1,optimizer=fast_compile,optimizer_including=fusion' python -u main.py
