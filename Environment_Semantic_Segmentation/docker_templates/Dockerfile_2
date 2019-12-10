@@ -1,0 +1,26 @@
+FROM image_base:latest
+
+
+
+#########################
+
+
+# Set the working directory to /SemSeg
+RUN mkdir /SemSeg
+WORKDIR /SemSeg
+
+# Copy the SemSeg contents into the container at /SemSeg
+
+ADD /SemSeg /SemSeg
+
+# Copy keras configuration
+
+COPY /keras.json /root/.keras/keras.json
+
+# Install any needed packages specified in requirements.txt
+RUN pip install -r requirements.txt
+
+ENV KERAS_BACKEND=theano
+
+# Run the application when the container launches
+#CMD ["python", "/TFM/att-based_localization/attloc/asd.py"]
