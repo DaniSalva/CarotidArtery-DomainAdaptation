@@ -1,0 +1,7 @@
+numpy
+matplotlib
+scipy==0.17.0
+scikit-image
+sklearn
+glob
+tensorflow

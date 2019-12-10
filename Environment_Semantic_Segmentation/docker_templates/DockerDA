@@ -1,0 +1,22 @@
+FROM nvcr.io/nvidia/tensorflow:18.04-py3 
+
+#########################
+
+
+# Set the working directory to /DomainAdaptation
+RUN mkdir /DomainAdaptation
+WORKDIR /DomainAdaptation
+
+# Copy the SemSeg contents into the container at /DomainAdaptation
+
+ADD /DomainAdaptation /DomainAdaptation
+
+# Copy keras configuration
+
+#COPY /keras.json /root/.keras/keras.json
+
+# Install any needed packages specified in requirements
+RUN pip3 install -r requirementsDA.txt
+RUN pip3 install git+https://www.github.com/keras-team/keras-contrib.git
+
+ENV KERAS_BACKEND=tensorflow
