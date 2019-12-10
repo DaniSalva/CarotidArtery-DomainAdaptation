@@ -1,6 +1,6 @@
 Flask==1.0.2
 h5py
-requests==2.12.4
+requests==2.20.0
 Pillow>=4.3.0
 #numpy==1.14.2
 numpy
