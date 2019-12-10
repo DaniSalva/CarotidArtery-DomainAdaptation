@@ -14,7 +14,7 @@ STEPS
 
 			docker build -f docker_templates/Dockerfile -t image_base .
 
-			docker build -f docker_templates/Dockerfile -t image_sem_seg .
+			docker build -f docker_templates/Dockerfile_2 -t image_sem_seg .
 
 		2- Create docker virtual volume (container persistence)
 
